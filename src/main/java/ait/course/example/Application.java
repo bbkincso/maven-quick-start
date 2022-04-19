@@ -10,13 +10,13 @@ public class Application {
 //   return (seperateWords == null)? 0:seperateWords.length;
 // }
 
-// public void greet(){
-// 	List<String> greetings = new ArrayList<>();
-// 	greetings.add("Hello");
-//      for (String greeting : greetings){
-// 		System.out.println("Greeting: "+greeting);
-// 	}
-// }
+ public void greet(){
+ 	List<String> greetings = new ArrayList<>();
+ 	greetings.add("Hello");
+      for (String greeting : greetings){
+ 		System.out.println("Greeting: "+greeting);
+ 	}
+ }
 
 public Application(){
 System.out.println("Inside Application");
@@ -25,7 +25,7 @@ System.out.println("Inside Application");
 public static void main(String[] args){
 	System.out.println("Starting Application");
 	Application app = new Application();
-    //  app.greet();
+      app.greet();
 }
 
 }
